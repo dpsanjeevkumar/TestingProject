@@ -1,0 +1,16 @@
+<apex:page tabStyle="Case" controller="customPicklist">
+<apex:form >
+  <apex:pageBlock >
+  <apex:pageBlockSection title="Custom Picklist Using selectList and selectOptions">
+  <apex:selectList value="{!selectedCountry2}" multiselect="false" size="1">
+                <apex:selectOptions value="{!countriesOptions}"/>
+                </apex:selectList>
+  </apex:pageBlockSection>
+
+
+  </apex:pageBlock>
+  <apex:pageBlock >
+
+  </apex:pageBlock>
+  </apex:form>
+</apex:page>

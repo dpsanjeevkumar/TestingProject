@@ -1,0 +1,3 @@
+<apex:page standardController="Chit_Group__c">
+ Welcome to page
+</apex:page>
